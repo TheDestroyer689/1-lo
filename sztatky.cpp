@@ -107,12 +107,12 @@ int main()
             tab[a][b] = 0;
             traf[a][b] = 2;
         } else {
-            cout << "Pudło\n";
+            cout << "Pudlo\n";
             traf[a][b] = 1;
         }    
         if(trafienia == 10)
         {
-            cout << "Wygrałeś \n";
+            cout << "Wygrales \n";
             return 0;
         }
         for(int i = 0; i < 10; i++)
